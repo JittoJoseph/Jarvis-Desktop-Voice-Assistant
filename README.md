@@ -48,7 +48,7 @@ Python 3.6+
      python -m venv .venv
      ```
 
-   - Execute this command before activating venv if you are getting a execution policy error.
+   - Execute this command before activating venv if you are getting an execution policy error.
        ```bash
        Set-ExecutionPolicy Unrestricted -Scope Process
        ```
