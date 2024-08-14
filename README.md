@@ -47,11 +47,6 @@ Python 3.6+
      ```bash
      python -m venv .venv
      ```
-
-   - Execute this command before activating venv if you are getting an execution policy error.
-       ```bash
-       Set-ExecutionPolicy Unrestricted -Scope Process
-       ```
    - Activate the virtual environment:
      - For Windows:
        ```bash
@@ -81,6 +76,16 @@ Python 3.6+
    - After you're done, deactivate the virtual environment:
      ```bash
      deactivate
+     ```
+## Error Fixes
+
+   - If you get a distutils error, fix it by running
+     ```bash
+     pip install setuptools
+     ```
+   - Execute this command before activating venv if you are getting an execution policy error.
+     ```bash
+     Set-ExecutionPolicy Unrestricted -Scope Process
      ```
 
 ## 📌Contributing
